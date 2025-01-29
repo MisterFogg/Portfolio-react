@@ -47,11 +47,19 @@ h1 {
   font-size: 3.2em;
   font-weight: bold;
   line-height: 1.1;
+  margin-top: 50px;
+  text-align: center;
 }
+
 
 h2 {
   font-weight: bold;
   font-size: 1.8rem;
+}
+
+.subtitle {
+  text-align: center;
+
 }
 
 .align-items-center {

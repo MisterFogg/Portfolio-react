@@ -68,8 +68,8 @@ function Portfolio() {
     </div>
     <div>
       <Container>
-        <h1 className="display-4">Portfolio</h1>
-        <p className="lead">Voici quelques-unes de mes réalisations.</p>
+        <h1>Portfolio</h1>
+        <p className="subtitle">Voici quelques-unes de mes réalisations.</p>
       <hr
         style={{
           width: '20vw',
