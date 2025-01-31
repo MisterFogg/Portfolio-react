@@ -149,10 +149,6 @@ img.img-fluid {
   margin-bottom: 20px;
 }
 
-.card-body {
-  padding: 2rem;
-}
-
 /* Progress Bar Styling */
 .progress-bar {
   font-size: 0.9rem;
@@ -190,4 +186,8 @@ img.img-fluid {
 
 .modal-body a:hover {
   text-decoration: underline;
+}
+
+.my-5 {
+  text-align: left;
 }

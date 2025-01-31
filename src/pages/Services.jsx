@@ -5,17 +5,17 @@ function Services() {
   const services = [
     {
       title: 'UX Design',
-      description: "L’UX Design est une discipline qui consiste à concevoir des produits digitaux en pensant à l'expérience utilisateur.",
+      description: "L'UX Design est une discipline qui consiste à concevoir des produits ( sites web, applications mobiles, logiciels, objets connectés, etc.) en plaçant l'utilisateur au centre des préoccupations. L'objectif est de rendre l'expérience utilisateur la plus fluide et agréable possible.",
       icon: 'bi bi-brush'
     },
     {
       title: 'Développement Web',
-      description: "Création de sites modernes et dynamiques en utilisant HTML, CSS, JavaScript, React et Bootstrap.",
+      description: "Le développement de sites web consiste à créer des sites internet en utilisant des langages de programmation (HTML, CSS, Javascript, PHP, etc.) et des frameworks (Bootstrap, React, Angular, etc.)",
       icon: 'bi bi-code-slash'
     },
     {
       title: 'Référencement (SEO)',
-      description: "Optimisation du référencement naturel pour améliorer la visibilité des sites sur Google et autres moteurs de recherche.",
+      description: "Le référencement naturel (SEO) est une technique qui consiste à optimiser un site web pour le faire remonter dans les résultats des moteurs de recherche (Google, Bing, Yahoo, etc.). L'objectif est d'attirer un maximum de visiteurs qualifiés sur le site.",
       icon: 'bi bi-search'
     }
   ];
@@ -34,20 +34,20 @@ function Services() {
           height: '35vh',
         }}
       >
-    </div>
+      </div>
     <div className="Title-page">
       <h1>Mon offre de services</h1>
       <p className="subtitle"> Voici les prestations sur lesquelles je peux intervenir</p>
     </div>
     <div style={{
-      width: "100px",
+      width: "35vw",
       height: "4px",
       background: "blue",
       margin: "10px auto",
     }}
     >
     </div>
-      <Container>
+    <Container>
         {/* Section services */}
         <Row className="justify-content-center mt-4">
           {services.map((service, index) => (
@@ -56,7 +56,8 @@ function Services() {
                 padding: "30px",
                 textAlign: "center",
                 backgroundColor: "rgba(255, 255, 255, 0.9)",
-                borderRadius: "5px"
+                height: "65vh, auto",
+                borderRadius: "5px",
               }}>
                 <i className={service.icon} style={{ fontSize: "40px", color: "blue", marginBottom: "15px" }}></i>
                 <Card.Title>{service.title}</Card.Title>
