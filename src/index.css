@@ -201,5 +201,6 @@ img.img-fluid {
 }
 
 .btn-contact {
-  align-items: center;
+  align-items: center; 
+  font-weight: 600;
 }
