@@ -45,16 +45,18 @@ header, footer {
 
 h1 {
   font-size: 3.2em;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 1.1;
-  margin-top: 50px;
   text-align: center;
 }
 
 
 h2 {
-  font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 2.5em;
+  font-weight: 600;
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 25px;
 }
 
 .subtitle {
@@ -83,9 +85,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -136,6 +140,10 @@ button:focus-visible {
 
 .card-body {
   padding: 2rem;
+}
+
+.card:hover {
+  background-color: #efefef !important;
 }
 
 .progress-bar {
@@ -190,4 +198,8 @@ img.img-fluid {
 
 .my-5 {
   text-align: left;
+}
+
+.btn-contact {
+  align-items: center;
 }

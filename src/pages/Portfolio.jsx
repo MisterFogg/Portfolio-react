@@ -4,51 +4,51 @@ function Portfolio() {
   const projects = [
     {
       id: 1,
-      title: 'Fresh Food',
-      description: 'Site de vente de produits frais en ligne',
-      technologies: 'PHP et MySQL',
-      image: 'src/assets/images/portfolio/fresh-food.jpg',
-      link: '#',
+      title: "Fresh Food",
+      description: "Site de vente de produits frais en ligne",
+      technologies: "PHP et MySQL",
+      image: "src/assets/images/portfolio/fresh-food.jpg",
+      link: "#",
     },
     {
       id: 2,
-      title: 'Restaurant Akira',
-      description: 'Site de vente de produits frais en ligne',
-      technologies: 'WordPress',
-      image: 'src/assets/images/portfolio/restaurant-japonais.jpg',
-      link: '#',
+      title: "Restaurant Akira",
+      description: "Site de vente de produits frais en ligne",
+      technologies: "WordPress",
+      image: "src/assets/images/portfolio/restaurant-japonais.jpg",
+      link: "#",
     },
     {
       id: 3,
-      title: 'Espace bien-être',
-      description: 'Site de vente de produits frais en ligne',
-      technologies: 'LARAVEL',
-      image: 'src/assets/images/portfolio/espace-bien-etre.jpg',
-      link: '#',
+      title: "Espace bien-être",
+      description: "Site de vente de produits frais en ligne",
+      technologies: "LARAVEL",
+      image: "src/assets/images/portfolio/espace-bien-etre.jpg",
+      link: "#",
     },
     {
       id: 4,
-      title: 'SEO',
-      description: 'Amélioration du référencement d’un site e-commerce',
-      technologies: 'Utilisation des outils SEO',
-      image: 'src/assets/images/portfolio/seo.jpg',
-      link: '#',
+      title: "SEO",
+      description: "Amélioration du référencement d'un site e-commerce",
+      technologies: "Utilisation des outils SEO",
+      image: "src/assets/images/portfolio/seo.jpg",
+      link: "#",
     },
     {
       id: 5,
-      title: 'Création d’une API',
-      description: 'Création d’une API RESTFUL publique',
-      technologies: 'PHP - SYMFONY',
-      image: 'src/assets/images/portfolio/coder.jpg',
-      link: '#',
+      title: "Création d'une API",
+      description: "Création d'une API RESTFUL publique",
+      technologies: "PHP - SYMFONY",
+      image: "src/assets/images/portfolio/coder.jpg",
+      link: "#",
     },
     {
       id: 6,
-      title: 'Maquette d’un site web',
-      description: 'Création d’un prototype d’un site',
-      technologies: 'Réalisé avec FIGMA',
-      image: 'src/assets/images/portfolio/screens.jpg',
-      link: '#',
+      title: "Maquette d'un site web",
+      description: "Création d'un prototype dun site",
+      technologies: "Réalisé avec FIGMA",
+      image: "src/assets/images/portfolio/screens.jpg",
+      link: "#",
     },
   ];
 
@@ -68,15 +68,15 @@ function Portfolio() {
     </div>
     <div>
       <Container>
-        <h1>Portfolio</h1>
+        <h2>Portfolio</h2>
         <p className="subtitle">Voici quelques-unes de mes réalisations.</p>
-      <hr
-        style={{
-          width: '20vw',
-          border: '2px solid #007bff',
-          margin: '10px auto',
-        }}
-      />
+        <div style={{
+            width: "35vw",
+            height: "4px",
+            background: "blue",
+            margin: "10px auto",
+          }}>
+        </div>
       </Container>
     </div>
 

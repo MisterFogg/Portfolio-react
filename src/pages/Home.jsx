@@ -26,7 +26,7 @@ function Home() {
         justifyContent: 'center',
         alignItems: 'center',
       }}>
-      <Container className="Hero-text">
+      <Container className="text-hero">
         <h1>Bonjour, je suis John Doe</h1>
         <h2>Développeur web full stack</h2>
         <GithubModal />
@@ -37,13 +37,14 @@ function Home() {
           <Card.Body>
             <Row className="align-items-center">
               <Col md={6}>
-                <h2 className="mb-4">A propos</h2>
-                <hr
-                  style={{
-                    width: '100%',
-                    border: '2px solid #0d6efd ',
-                    margin: '10px auto',
-                  }} />
+                <h3 className="mb-4">A propos</h3>
+                <div style={{
+                  width: "100%",
+                  height: "4px",
+                  background: "blue",
+                  margin: "25px auto",
+                  }}>
+                </div>
                 <img
                   src="src/assets/images/john-doe-about.jpg"
                   alt="John Doe"
@@ -69,13 +70,14 @@ function Home() {
               </Col>
               {/* Colonne Compétences */}
               <Col md={6}>
-                <h2 className="mb-4">Mes compétences</h2>
-                <hr
-                  style={{
-                    width: '100%',
-                    border: '2px solid #0d6efd',
-                    margin: '10px auto',
-                  }} />
+                <h3 className="mb-4">Mes compétences</h3>
+                <div style={{
+                  width: "100%",
+                  height: "4px",
+                  background: "blue",
+                  margin: "25px auto",
+                  }}>
+                </div>
                 {skills.map((skill, index) => (
                   <div key={index} className="mb-3">
                     <h5 className="mb-1">{skill.name}</h5>

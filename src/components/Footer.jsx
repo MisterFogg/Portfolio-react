@@ -12,8 +12,7 @@ function Footer() {
             <li>40 rue Laure Diebold</li>
             <li>69009 Lyon, France</li>
             <li>10 20 30 40 50</li>
-            <li>john.doe@gmail.com</li>
-            <li><i class="bi bi-github"></i><i class="bi bi-twitter"></i><i class="bi bi-linkedin"></i></li>            
+            <li>john.doe@gmail.com</li>         
             </ul>
           </Col>
           
