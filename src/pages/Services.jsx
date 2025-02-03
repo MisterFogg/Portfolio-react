@@ -36,7 +36,7 @@ function Services() {
       >
       </div>
     <div className="Title-page">
-      <h1>Mon offre de services</h1>
+      <h2>Mon offre de services</h2>
       <p className="subtitle"> Voici les prestations sur lesquelles je peux intervenir</p>
     </div>
     <div style={{
@@ -55,8 +55,8 @@ function Services() {
               <Card style={{
                 padding: "30px",
                 textAlign: "center",
-                backgroundColor: "rgba(255, 255, 255, 0.9)",
-                height: "65vh, auto",
+                backgroundColor: "white",
+                height: "50vh",
                 borderRadius: "5px",
               }}>
                 <i className={service.icon} style={{ fontSize: "40px", color: "blue", marginBottom: "15px" }}></i>

@@ -2,18 +2,16 @@ import { Container, Accordion } from 'react-bootstrap';
 
 function LegalMentions() {
   return (
-    <div
-      className="text-center"
-      style={{
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        height: '100vh',
-        width: '100vw',
-        color: 'black',
-      }}
-    >
+    
     <Container className="my-5">
-      <h1 className="text-center mb-4">Mentions Légales</h1>
+      <h2>Mentions Légales</h2>
+        <div style={{
+          width: "35vw",
+          height: "4px",
+          background: "blue",
+          margin: "25px auto",
+          }}>
+        </div>
       <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>Éditeur du site</Accordion.Header>
@@ -23,7 +21,7 @@ function LegalMentions() {
             <li>40 rue Laure Diebold</li>
             <li>69009 Lyon, France</li>
             <li>10 20 30 40 50</li>
-            <li>john.doe@gmail.com</li>       
+            <li>john.doe@gmail.com</li>
             </ul>
           </Accordion.Body>
         </Accordion.Item>
@@ -46,7 +44,6 @@ function LegalMentions() {
         </Accordion.Item>
       </Accordion>
     </Container>
-    </div>
   );
 }
 
